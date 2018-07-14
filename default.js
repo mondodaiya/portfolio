@@ -15,7 +15,7 @@ function popup(){
   var txt;
   var r = confirm("プロフィールページに移動しますか？");
   if (r == true) {
-    // location.href="https://www.pazru.net/";
-    window.open('profile.html','_blank');
+    location.href="profile.html";
+    // window.open('profile.html');
   }
 }
