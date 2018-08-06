@@ -2,12 +2,11 @@ var count = 0;
 
 function addCount() {
   count = count + 1;
+  popup();
   // alert(count + '回目');
-  if(count>=3){
+  if(count>=1){
     count = 0;
     // alert("a");
-    // location.href = "https://www.pazru.net/";
-    popup();
   }
 }
 
